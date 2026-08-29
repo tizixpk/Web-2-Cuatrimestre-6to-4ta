@@ -3,53 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EEST N°8 Almafuerte - Lanús</title>
+    <title>EEST N°8 "Almafuerte" - Lanús</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo-contenedor">
-            <img src="imagen.png" alt="Logo EEST N°8 Almafuerte" class="logo">
-            <div class="titulo-escuela">
-                <h1>EEST N°8 "Almafuerte"</h1>
-                <p>Educación Secundaria Técnica - Lanús</p>
+        <div class="nav-contenedor">
+            <div class="logo-area">
+                <img src="imagen.png" alt="Logo Técnica 8" class="logo">
+                <div class="titulos">
+                    <h1>EEST N°8</h1>
+                    <span>"Almafuerte"</span>
+                </div>
             </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#noticias">Noticias</a></li>
+                    <li><a href="#historia">La Escuela</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#especialidades">Especialidades</a></li>
-            <li><a href="#inscripciones">Inscripciones</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-
     <main>
         <section id="inicio" class="hero">
-            <h2>Bienvenidos a la Técnica 8</h2>
-            <p>Formando técnicos profesionales con compromiso y dedicación para el futuro.</p>
+            <div class="hero-texto">
+                <h2>Formando los profesionales del mañana</h2>
+                <p>Educación Secundaria Técnica de excelencia en Lanús. Preparate para el mundo laboral y los desafíos tecnológicos actuales.</p>
+                <a href="#especialidades" class="boton-primario">Ver Especialidades</a>
+            </div>
         </section>
 
-        <section id="especialidades" class="seccion-info">
-            <h2>Nuestras Especialidades</h2>
-            <div class="contenedor-tarjetas">
-                <div class="tarjeta">
+        <section id="especialidades" class="seccion-oscura">
+            <h2 class="titulo-seccion">Nuestras Especialidades</h2>
+            <div class="grilla-tarjetas">
+                
+                <div class="tarjeta esp-tarjeta">
+                    <div class="icono-esp">💻</div>
                     <h3>Programación / Informática</h3>
-                    <p>Desarrollo de software, armado de redes, bases de datos y sistemas operativos.</p>
+                    <p>Desarrollo de software, laboratorio de aplicaciones, bases de datos, armado de redes y sistemas operativos.</p>
                 </div>
-                <div class="tarjeta">
+
+                <div class="tarjeta esp-tarjeta">
+                    <div class="icono-esp">🏗️</div>
+                    <h3>Construcciones</h3>
+                    <p>Diseño de planos, cálculo de estructuras, dirección de obra, materiales y normativas de construcción.</p>
+                </div>
+
+                <div class="tarjeta esp-tarjeta">
+                    <div class="icono-esp">⚙️</div>
                     <h3>Electromecánica</h3>
-                    <p>Diseño, instalación y mantenimiento de sistemas electromecánicos industriales.</p>
+                    <p>Diseño, instalación y mantenimiento de sistemas electromecánicos industriales, tornería y automatización.</p>
                 </div>
+
+            </div>
+        </section>
+
+        <section id="noticias" class="seccion-clara">
+            <h2 class="titulo-seccion">Últimas Noticias</h2>
+            <div class="grilla-tarjetas">
+                
+                <article class="tarjeta noticia-tarjeta">
+                    <span class="fecha">25 de Agosto, 2026</span>
+                    <h3>Muestra Anual de Proyectos</h3>
+                    <p>Preparativos en marcha para la exposición de fin de año donde los alumnos de 6to mostrarán sus trabajos de prácticas profesionalizantes.</p>
+                    <a href="#" class="leer-mas">Leer más ➔</a>
+                </article>
+
+                <article class="tarjeta noticia-tarjeta">
+                    <span class="fecha">12 de Agosto, 2026</span>
+                    <h3>Nuevos equipos en los talleres</h3>
+                    <p>La escuela recibió nuevo equipamiento para los laboratorios de informática y los talleres de electromecánica.</p>
+                    <a href="#" class="leer-mas">Leer más ➔</a>
+                </article>
+
+                <article class="tarjeta noticia-tarjeta">
+                    <span class="fecha">5 de Agosto, 2026</span>
+                    <h3>Inscripciones Ciclo Lectivo 2027</h3>
+                    <p>Ya se encuentran publicadas las fechas y requisitos para el ingreso a 1er año de nuestra institución.</p>
+                    <a href="#" class="leer-mas">Leer más ➔</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="historia" class="seccion-oscura historia">
+            <div class="historia-contenido">
+                <h2>Nuestra Institución</h2>
+                <p>La Escuela de Educación Secundaria Técnica N°8 "Almafuerte" es un pilar fundamental en la educación técnica de Lanús. Nuestro objetivo es brindar a los estudiantes herramientas prácticas y teóricas que les permitan insertarse rápidamente en el mercado laboral o continuar sus estudios universitarios con una base sólida.</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Escuela de Educación Secundaria Técnica N°8 "Almafuerte" - Lanús</p>
-        <p>Proyecto Web 2do Cuatrimestre - Hecho por tiziano pirez</p>
+        <div class="footer-contenido">
+            <div class="footer-info">
+                <h3>EEST N°8 "Almafuerte"</h3>
+                <p>📍 Lanús, Buenos Aires, Argentina</p>
+            </div>
+            <div class="footer-creditos">
+                <p>Proyecto de Diseño Web - 2do Cuatrimestre</p>
+                <p>Desarrollado por <strong>pirez y mamani</strong></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
